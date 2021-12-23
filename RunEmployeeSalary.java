@@ -24,7 +24,7 @@ public class RunEmployeeSalary{
 		System.out.println("3 - Search for employee(by id)");
 		System.out.println("4 - Search by job title");
 		System.out.println("5 - Remove employee(by id)");
-		System.out.println("6 - Save and Exit");
+		System.out.println("6 - Exit");
 		System.out.println("Enter an option(1-6): ");
 
 		int userInput = 0; //initializing variable

@@ -105,12 +105,12 @@ public class RunEmployeeSalary{
 						trueFalse=true;
 						Scanner in5 = new Scanner(System.in);
 						try{
-							salary = in5.nextDouble();
+							wage = in5.nextDouble();
 							}catch(InputMismatchException e) {
 							System.out.println("Error, enter a number for the salary.");
 							trueFalse=false;
 							}}
-					staff.add(new HourlyEmployee(name,id,position,salary)); //adds employee to Employee ArrayList from the created HourlyEmployee class
+					staff.add(new HourlyEmployee(name,id,position,wage)); //adds employee to Employee ArrayList from the created HourlyEmployee class
 					}
 				else if(salaryOrWage.equals("M")) {
 					position = "Manager";
